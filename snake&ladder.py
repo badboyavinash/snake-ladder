@@ -1,6 +1,6 @@
-import random
-count=0
-while(count<=100):
+import random                             #including random module from library
+count=0                                   #intial count is zero 
+while(count<=100):                        
     a=input("enter 'r' to roll a dice=")
     if (a=='r'):
         r=random.randint(1,6)
